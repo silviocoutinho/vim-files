@@ -1,5 +1,7 @@
 call plug#begin()
 Plug 'morhetz/gruvbox'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'sheerun/vim-polyglot' 
 call plug#end()
 
 colorscheme gruvbox
