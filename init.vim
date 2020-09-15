@@ -18,4 +18,4 @@ set inccommand=split
 let mapleader="\<space>"
 nnoremap <leader>; A;<esc>
 nnoremap <leader>sv :source ~/.config/nvim/init.vim<cr>
-
+map <C-o> :NERDTreeToggle<CR>
