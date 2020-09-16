@@ -18,4 +18,13 @@ set inccommand=split
 let mapleader="\<space>"
 nnoremap <leader>; A;<esc>
 nnoremap <leader>sv :source ~/.config/nvim/init.vim<cr>
+
+" ######## Shortcut NERDTree ######
 map <C-o> :NERDTreeToggle<CR>
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
+" Shortcut split navigation NERDTree
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
