@@ -4,6 +4,7 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'sheerun/vim-polyglot' 
 Plug 'itchyny/lightline.vim'
 Plug 'scrooloose/nerdtree'
+Plug 'prettier/vim-prettier', { 'do': 'yarn install', 'branch': 'release/0.x'}
 call plug#end()
 
 colorscheme gruvbox
