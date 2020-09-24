@@ -5,6 +5,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'itchyny/lightline.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install', 'branch': 'release/0.x'}
+Plug 'dense-analysis/ale'
 call plug#end()
 
 colorscheme gruvbox
@@ -32,3 +33,12 @@ map <C-l> <C-w>l
 
 "Shortcut Prettier
 nmap <Leader>py <Plug>(Prettier)
+
+
+"ESLint for JS
+let g:ale_fixers = { 'javascript' : ['eslint']}
+
+let g:ale_sign_error = "◉"
+let g:ale_sign_warning = "◉"
+highlight ALEErrorSign ctermfg=9 ctermbg=15 guifg=#C30500 guibg=#F5F5F5
+highlight ALEWarningSign ctermfg=11 ctermbg=15 guifg=#ED6237 guibg=#F5F5F5
