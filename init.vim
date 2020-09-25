@@ -37,6 +37,7 @@ nmap <Leader>py <Plug>(Prettier)
 
 "ESLint for JS
 let g:ale_fixers = { 'javascript' : ['eslint']}
+let g:ale_linters = { 'javascript' : ['eslint']}
 
 let g:ale_sign_error = "◉"
 let g:ale_sign_warning = "◉"
