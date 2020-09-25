@@ -6,6 +6,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install', 'branch': 'release/0.x'}
 Plug 'dense-analysis/ale'
+Plug 'editorconfig/editorconfig-vim'
 call plug#end()
 
 colorscheme gruvbox
