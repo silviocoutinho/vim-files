@@ -7,6 +7,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install', 'branch': 'release/0.x'}
 Plug 'dense-analysis/ale'
 Plug 'editorconfig/editorconfig-vim'
+Plug 'ternjs/tern_for_vim', { 'do' : 'npm install' }
 call plug#end()
 
 colorscheme gruvbox
