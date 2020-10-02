@@ -44,3 +44,9 @@ let g:ale_sign_error = "◉"
 let g:ale_sign_warning = "◉"
 highlight ALEErrorSign ctermfg=9 ctermbg=15 guifg=#C30500 guibg=#F5F5F5
 highlight ALEWarningSign ctermfg=11 ctermbg=15 guifg=#ED6237 guibg=#F5F5F5
+
+"Autocomplete
+filetype plugin on
+set omnifunc=syntaxcomplete#Complete
+
+
