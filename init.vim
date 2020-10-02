@@ -8,6 +8,7 @@ Plug 'prettier/vim-prettier', { 'do': 'yarn install', 'branch': 'release/0.x'}
 Plug 'dense-analysis/ale'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'ternjs/tern_for_vim', { 'do' : 'npm install' }
+Plug 'frazrepo/vim-rainbow'
 call plug#end()
 
 colorscheme gruvbox
@@ -50,4 +51,6 @@ highlight ALEWarningSign ctermfg=11 ctermbg=15 guifg=#ED6237 guibg=#F5F5F5
 filetype plugin on
 set omnifunc=syntaxcomplete#Complete
 
-
+"Vim rainbow brackets
+" Global configuration
+let g:rainbow_active = 1
