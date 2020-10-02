@@ -9,6 +9,7 @@ Plug 'dense-analysis/ale'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'ternjs/tern_for_vim', { 'do' : 'npm install' }
 Plug 'frazrepo/vim-rainbow'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 call plug#end()
 
 colorscheme gruvbox
@@ -54,3 +55,17 @@ set omnifunc=syntaxcomplete#Complete
 "Vim rainbow brackets
 " Global configuration
 let g:rainbow_active = 1
+
+
+let g:NERDTreeGitStatusIndicatorMapCustom = {
+                \ 'Modified'  :'✹',
+                \ 'Staged'    :'✚',
+                \ 'Untracked' :'✭',
+                \ 'Renamed'   :'➜',
+                \ 'Unmerged'  :'═',
+                \ 'Deleted'   :'✖',
+                \ 'Dirty'     :'✗',
+                \ 'Ignored'   :'☒',
+                \ 'Clean'     :'✔︎',
+                \ 'Unknown'   :'?',
+                \ }
