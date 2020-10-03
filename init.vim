@@ -55,7 +55,7 @@ set omnifunc=syntaxcomplete#Complete
 "Vim rainbow brackets
 " Global configuration
 let g:rainbow_active = 1
-
+au FileType c,cpp,objc,objcpp,js,ts,json call rainbow#load()
 
 let g:NERDTreeGitStatusIndicatorMapCustom = {
                 \ 'Modified'  :'✹',
