@@ -10,11 +10,16 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'ternjs/tern_for_vim', { 'do' : 'npm install' }
 Plug 'frazrepo/vim-rainbow'
 Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'dracula/vim', { 'as': 'dracula' }
 call plug#end()
 
-colorscheme gruvbox
+"colorscheme gruvbox
 set background=dark
 
+colorscheme dracula
+"colorscheme_bg="dark"
+
+syntax on
 set hidden
 set number
 set relativenumber
