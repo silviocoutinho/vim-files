@@ -11,6 +11,7 @@ Plug 'ternjs/tern_for_vim', { 'do' : 'npm install' }
 Plug 'frazrepo/vim-rainbow'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'Yggdroot/indentLine' 
 call plug#end()
 
 "colorscheme gruvbox
@@ -74,3 +75,6 @@ let g:NERDTreeGitStatusIndicatorMapCustom = {
                 \ 'Clean'     :'✔︎',
                 \ 'Unknown'   :'?',
                 \ }
+
+let g:indentLine_char = '▏'
+
