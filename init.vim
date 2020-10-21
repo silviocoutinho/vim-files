@@ -8,10 +8,15 @@ Plug 'prettier/vim-prettier', { 'do': 'yarn install', 'branch': 'release/0.x'}
 Plug 'dense-analysis/ale'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'ternjs/tern_for_vim', { 'do' : 'npm install' }
+"Brackets rainbow - colors applied in brackets
 Plug 'frazrepo/vim-rainbow'
 Plug 'Xuyuanp/nerdtree-git-plugin'
+"Theme Dracula
 Plug 'dracula/vim', { 'as': 'dracula' }
+"Vertical Line
 Plug 'Yggdroot/indentLine' 
+"Intellisense for vim
+Plug 'neoclide/coc.nvim', {'branch': 'release'} 
 call plug#end()
 
 "colorscheme gruvbox
@@ -55,8 +60,8 @@ highlight ALEErrorSign ctermfg=9 ctermbg=15 guifg=#C30500 guibg=#F5F5F5
 highlight ALEWarningSign ctermfg=11 ctermbg=15 guifg=#ED6237 guibg=#F5F5F5
 
 "Autocomplete
-filetype plugin on
-set omnifunc=syntaxcomplete#Complete
+"filetype plugin on
+"set omnifunc=syntaxcomplete#Complete
 
 "Vim rainbow brackets
 " Global configuration

@@ -1,0 +1,2 @@
+tsserver.enable = true
+tsserver.enableJavascript = true
