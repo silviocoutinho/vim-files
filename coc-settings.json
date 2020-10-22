@@ -1,2 +1,4 @@
-tsserver.enable = true
-tsserver.enableJavascript = true
+{
+  "tsserver.enable": true,
+  "tsserver.enableJavascript": true
+}
